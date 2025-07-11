@@ -53,6 +53,38 @@
     margin-bottom: 85px;
 }
 
+/* action section styles */
+.action-section{
+    height: 328px;
+    width: 1140px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+}
+.action-description{
+    height: 203px;
+    width: 517px;
+    margin-top: 62.5px;
+    
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    height: 49px;
+    width: 517px;
+    margin-bottom: 23px;
+}
+.action-subtitle{
+    font: 24px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+.action-section img{
+     height: 328px;
+     width: 403px;
+     border-radius: 48px;
+}
 /* all buttons */
 .signup-button{
     height: 48px;
@@ -72,7 +104,15 @@
     font-size: 16px;
     font-weight: bold;
 }
-
+.launch-live-button{
+    height: 48px;
+    width: 229px;
+    border: 2px solid #4E47FF;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+}
 /* shared styles */
 .text-align{
     text-align: center;
@@ -86,4 +126,7 @@
 }
 .color-3{
     color: #252432;
+}
+.body-color{
+    background-color: #D6DDED;
 }
