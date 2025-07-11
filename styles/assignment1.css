@@ -176,7 +176,7 @@
     
     height: 490px;
     width: 497px;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 71px;
 }
 .form label{
