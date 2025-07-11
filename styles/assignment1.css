@@ -119,6 +119,60 @@
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+/* get in touch section styles */
+.get-in-touch{
+    height: 632px;
+    width: 1140px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 92.23px;
+}
+.get-in-touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+.form{
+    
+    height: 490px;
+    width: 497px;
+    align-items: center;
+    margin-top: 71px;
+}
+.form label{
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+}
+.form textarea{
+    /* height: 135px;
+    width: 497px; */
+    border: none;
+    border-radius: 10px;
+    padding: 20px 230px 85px 32px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 19px; 
+}
+.form input{
+    padding: 20px 222px 20px 32px;
+    display: block;
+    /* height: 70px;
+    width: 497px; */
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 19px;  
+    margin-top: 10px;
+    
+}
 /* all buttons */
 .signup-button{
     height: 48px;
@@ -147,6 +201,16 @@
     font-size: 16px;
     font-weight: bold;
 }
+.getintouch-button{
+    height: 62px;
+    width: 497px;
+    border: 2px solid #4E47FF;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
 /* shared styles */
 .text-align{
     text-align: center;
